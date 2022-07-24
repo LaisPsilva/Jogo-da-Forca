@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    height: 90vh;
+    margin-top: 10px;
+    background-color: rgb(5, 22, 94);
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .container {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+  #imagem {
+    background-image: url("../src/forca-0.png");
+    width: 382px;
+    height: 610px;
+    background-repeat: no-repeat;
+  }
+
+  #palavra-secreta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    margin-top: 60px;
+
+  }
+
+  .letras{
+    width: 36px;
+    text-align: center;
+    border-bottom: 3px solid #c20f80;
+    color: #ffffff;
+    padding: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+
+  }
+  
+  #teclado{
+    margin-top: 70px;
+    
+
+  }
+
+  .teclas button{
+      width: 50px;
+      height: 50px;
+      margin: 2px;
+      margin-bottom: 6px;
+      cursor: pointer;
+      box-shadow: 0px 2px 8px dimgray;
+      border-radius: 6px;
+      border: 1px solid dimgray;
+      color: #c20f80;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 999;
+  }
+
+  .teclas button:disabled{
+    cursor: not-allowed;
+
+  }
+
+  .teclas button:hover {
+    transform: scale(1.3);
+    background: #888888;
+    border-color: black ;
+  
+  }
+
+  #categoria{
+    margin-top: 60px;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+  }
+  
+  
